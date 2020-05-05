@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css?family=Teko');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+@font-face{
+  font-family: 'Daniel-Regular-webfont';
+  src: url('../fonts/daniel_regular_macroman/Daniel-Regular-webfont.eot');
+  src: url('../fonts/daniel_regular_macroman/Daniel-Regular-webfont.eot?iefix') format('eot'),
+       url('../fonts/daniel_regular_macroman/Daniel-Regular-webfont.woff') format('woff'),
+       url('../fonts/daniel_regular_macroman/Daniel-Regular-webfont.ttf') format('truetype'),
+       url('../fonts/daniel_regular_macroman/Daniel-Regular-webfont.svg#Daniel-Regular-webfont') format('svg');
+}
+
+body{
+  background-color: #f4eade;
+  margin: 0;
+}
+
+.contentWrapper {
+  padding-top: 100px;
+  width: 726px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Daniel-Regular-webfont';
+  margin: 0 auto;
+}
+
+h2 {
+  color: #e08a73;
+  text-align: center;
+  font-family: 'Teko', 'sans-serif';
+  font-size: 31px;
+  width: 282px;
+  margin: 20px auto 92px;
+}
+
+h3 {
+  font-family: 'Teko', 'sans-serif';
+  color: #2793b4;
+  font-size: 31px;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+-webkit-padding-start: 0px;
+}
+
+.meny{
+  margin-right: 20px;
+}
+
+li {
+  font-family: 'Teko', 'sans-serif';
+  display: inline-block;
+  margin:  0 10px;
+  font-size: 22px;
+}
+
+li:hover{
+  text-decoration: underline;
+}
+
+a{
+  text-decoration: none;
+  color: #e08a73;
+}
+
+p {
+  color: #6c6c6c;
+  font-family: 'Roboto Slab', serif;
+  line-height: 2
+}
+
+/*#active {
+  color: #e08a73;
+}*/
+
+svg #Layer_2 {
+
+}
+
+.intro h3{
+  text-align: center;
+  margin-top: 90px;
+}
+
+.intro p{
+  text-align: center;
+}
+
+.line-separator{
+width: 120px;
+height:5px;
+background:#e08a73;
+margin: 107px auto;
+}
+
+.left-text {
+  margin: 50px 0 50px;
+  display: inline-block;
+  width: 400px;
+}
+
+.right-text{
+  margin: 50px 0 50px;
+  float: right;
+  display: inline-block;
+  width: 380px;
+}
+
+#star{ 
+    width: 143px;
+    margin-left: 63px;
+    display: inline-block;
+    margin-top: 114px;
+    float: right;
+}
+
+#html{
+    margin-top: 98px;
+    width: 143px;
+    display: inline-block;
+}
+
+#ps{
+    width: 144px;
+    float: right;
+    display: inline-block;
+    margin-top: 97px;
+    margin-right: 1px;
+    margin-right: 1px;
+}
+
+#footerWrapper{
+width: 100%;
+height: 100px;
+background-color: #e08a73;
+margin-top: 150px;
+}
+
+.footerContainer{
+text-align: center;
+margin: 0 auto;
+padding: 19px 0;
+}
+
+.footerContainer ul{
+  float: none;
+  margin-right: 0;
+}
+
+.footerContainer a{
+  color: #f4eade;
+}
+
+/* INDEX */
+
+#referanser{
+  width: 320px;
+  float: none;
+  margin: 0 auto;
+}
+
+#referanser a:hover{
+  text-decoration: underline;
+}
+
+#referanser a {
+  line-height: 2;
+}
+
+
+
+.workSection{
+width: 100%;
+background-color: white;
+height: 600px;
+}
+
+#helsering img {
+  margin: 66px 0 0 4%;
+  width: 60%;
+ /* position: absolute;
+  bottom: -660px;*/
+}
+
+#brief{
+width: 350px;
+padding-top: 70px;
+margin: 0 auto;
+}
+
+h1#arbeid {
+  margin: 30px 0 20px;
+}
+
+#arbeid{
+  font-family: 'Teko', 'sans-serif';
+  color: #e08a73;
+}
+
+#triangles{
+  width: 400px;
+  margin: 200px auto -5px;
+}
+
+.workText{
+  float: right;
+  width: 25%;
+  margin: 25px 4% 0 0;
+}
+
+/* KONTAKT */
+#iconWrapper{
+  margin: 0 auto;
+  width: 450px;
+  padding-top: 300px;
+}
+
+#epost{
+  width: 100px;
+  display: inline-block;
+  margin: 0 60px;
+}
+
+#phone{
+  width: 100px;
+  display: inline-block;
+  margin: 0 60px;
+}
+
+#epostadresse a {
+  font-family: 'Teko', 'sans-serif';
+  font-size: 31px;
+  margin: 0 auto;
+}
+
+#epostadresse a:hover{
+  text-decoration: underline;
+}
+
+#telefonnummer a{
+  font-family: 'Teko', 'sans-serif';
+  font-size: 31px;
+  text-align: center;
+  margin: 0 7px;
+}
+
+#telefonnummer a:hover{
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+
+  svg.image{
+    width: 100%;
+  }
+
+  #brief{
+    padding-top: 70px;
+    width: 100%;
+  }
+
+#subHeader{
+  font-size: 26px;
+}
+
+  .contentWrapper{
+    width: 90%;
+  }
+
+  .left-text {
+    width: 95%;
+  display: block;
+  margin: 0 auto;
+}
+
+.right-text{
+width: 95%;
+margin: 0 auto;
+display: block;
+float: none;
+}
+
+#star{
+  width: 143px;
+  display: none;
+  margin: 0;
+}
+
+#html{
+  width: 143px;
+  display: none;
+  margin: 0;
+}
+
+#ps{
+width: 144px;
+float: none;
+display: none;
+margin: 0;
+}
+
+}
+
+
+@media screen and (max-width: 415px) {
+
+.contentWrapper{
+  padding-top: 50px;
+}
+
+ #brief{
+    padding-top: 0px;
+  }
+
+ul {
+float: none;
+width:193px;
+margin: 16px auto 0;
+}
+
+.meny{
+  margin-right: 0;
+}
+
+.footerContainer ul{
+  margin-right: auto;
+}
+#iconWrapper{
+margin: 0 auto;
+width: 100%;
+padding-top: 300px;
+}
+
+#epost{
+margin: 0 6% 0  12%;
+width: 30%;
+}
+
+#phone{
+margin: 0 12% 0 6%;
+width: 30%;
+}
+
+#epostadresse {
+  text-align: center;
+}
+
+#telefonnummer {
+  text-align: center;
+}
+
+}
+
+@media screen and (max-width: 374px) {
+
+#iconWrapper{
+padding-top: 250px;
+}
+
+#referanser {
+  width: 290px;
+}
+
+#referanser li {
+  margin: 0 5px;
+}
+
+#brief{
+    padding-top: 0px;
+  }
+
+#epostadresse a{
+  font-size: 28px;
+}
+
+#telefonnummer a{
+  font-size: 28px;
+}
+
+}
